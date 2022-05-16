@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Britlex</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- header -->
@@ -14,7 +15,7 @@
         <ul>
         <li><a href="./britlex.html">Home</a></li>
         <li><a href="#Skills">Skills</a></li>
-        <li><a href="#About Us">About Us</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
         <li><a href="#Pricing">Pricing</a></li>
         <li><a href="#Contacts">Contacts</a></li>
         </ul>
@@ -32,12 +33,12 @@
         <button type="button">Get Started</button>
 
 
-        <img src="./image/Learning languages-bro 1.png" alt="" width="660">
+        <img src="./image/hero.png" alt="" width="660">
     </section>
     <!-- Skills -->
     <main>
         <section>
-        <a href="#"><h2>Skills</h2></a>
+        <a href="#Skills" id="Skills"><h2>Skills</h2></a>
         <ul>
             <li>
                 <img src="./image/image01/hero1.png" alt="Speaking" width="390" height="390">
@@ -49,8 +50,6 @@
                         Learn English online and improve your
                         skills through our high-quality courses
                         and resources – all designed for adult language learners.</p>
-                    
-                </img>
                 <button type="button">Learn More</button>
             </li>
             <li>
@@ -60,7 +59,6 @@
                         your listening skills. Listening will help you
                         to improve your understanding</p>
                     
-                </img>
                 <button type="button">Learn More</button>
             </li>
             <li>
@@ -70,7 +68,6 @@
                         areas of natural science, the science that
                         studies substances, also their composition</p>
                     
-                </img>
                 <button type="button">Learn More</button>
             </li>
             <li>
@@ -80,7 +77,6 @@
                         resulting from the use and/or upcoming use
                         of the product, system or service</p>
                     
-                </img>
                 <button type="button">Learn More</button>
             </li>
         </ul>
@@ -88,7 +84,7 @@
         <!-- About Us -->
         <section>
             <img src="./image/image01/aboutus.png" alt="AboutUs" width="500" height="500">
-            <a href="#"><h2>About Us</h2></a>
+            <a href="#AboutUs" id="AboutUs"><h2>About Us</h2></a>
             <ul>
                 <li>
                     <p>The model offers a framework for discussing problems related to the user's experience, as well as possible ways and
@@ -111,32 +107,29 @@
         </section>
         <!-- Pricing -->
         <section>
-            <h3><a href="#Pricing">Pricing</a></h3>
+            <h3><a href="#Pricing" id="Pricing">Pricing</a></h3>
             <ul>
                 <li>
-                    <img src="./image/image01/pircing1.png" alt="working process" width="" height="">
+                    <img src="./image/image01/pircing1.png" alt="working process" width="311" height="311">
                     <h3>Self-study online course</h3>
                     <p>Start learning English online in live classes
                     with qualified EC teachers and students
                     from all over the world.</p>
-                    <button type="">£5.99
-                    per month</button>
+                    <button type="button">£5.99 per month</button>
                 </li>
                 <li>
-                    <img src="./image/image01/pircing2.png" alt="teaching" width="" height="">
+                    <img src="./image/image01/pircing2.png" alt="teaching" width="391" height="283">
                     <h3>Live online classes</h3>
                     <p>Interactive group classes with expert
                     teachers. Free 7-day trial</p>
-                    <button type="">£12.99
-                    per month</button>
+                    <button type="button">£12.99 per month</button>
                 </li>
                 <li>
-                    <img src="./image/image01/pircing3.png" alt="conference" width="" height="">
+                    <img src="./image/image01/pircing3.png" alt="conference" width="340" height="340">
                     <h3>Personal Tuition</h3>
                     <p>Online one-to-one English tutoring – enjoy
                     our first session for only $1</p>
-                    <button type="">£20.99
-                    per month</button>
+                    <button type="button">£20.99 per month</button>
                 </li>
             </ul>
         </section>
@@ -145,20 +138,22 @@
     <footer>
         <section>
         <img src="./image/image01/cotactus1.png" alt="letter" width="477" height="429">
-        <h2>Contact Us</h2>
+        <a href="#Contacts" id="Contacts"><h2>Contact Us</h2></a>
         <p>Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips
         and free resources</p>
-        <form action=""> <input type="text" name="" id=""><button type="submit">Subcribe</button></form>
+        <form action="#" method="post"> 
+            <input type="email" name="name" id="POST-name" value="Enter Your E-mail">
+            <button type="submit">Subcribe</button>
+        </form>
+
         </section>
         <!-- Подвал -->
         <section>
             <a href="#"><h3>Britlex</h3></a>
             <p>Terms and Conditions • Privacy Policy • Cookie Policy</p>
         </section>
+
+            
     </footer>
-    <section id="Skills"></section>
-    <section id="About Us"></section>
-    <section id="Pricing"></section>
-    <section id="Contacts"></section>
 </body>
 </html>
